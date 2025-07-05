@@ -57,5 +57,48 @@ ul {
 }
 
 .nav__link:hover {
-  color: hsl(166, 100%, 70%);
+  color: hsl(165, 75%, 61%);
+}
+
+.main {
+  margin-inline: 22.5rem;
+}
+
+.hero {
+  text-align: center;
+  margin-block: 5rem 2.5rem;
+}
+
+.hero .title {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0.04em;
+  width: 20ch;
+  text-align: center;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+}
+
+.hero .subtitle {
+  width: 55ch;
+  margin-inline: auto;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  background: hsl(166, 100%, 70%);
+  color: hsl(216, 65%, 11%);
+  padding: 1rem 2.25rem;
+  margin-block: 1.5rem 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.button:hover {
+  background: hsl(165, 75%, 61%);
 }
