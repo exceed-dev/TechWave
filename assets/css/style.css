@@ -66,7 +66,7 @@ ul {
 
 .hero {
   text-align: center;
-  margin-block: 5rem 2.5rem;
+  margin-block: 5rem;
 }
 
 .hero .title {
@@ -75,7 +75,6 @@ ul {
   font-size: 3rem;
   letter-spacing: 0.04em;
   width: 20ch;
-  text-align: center;
   margin-inline: auto;
   margin-bottom: 1.5rem;
 }
@@ -101,4 +100,33 @@ ul {
 
 .button:hover {
   background: hsl(165, 75%, 61%);
+}
+
+.information {
+  text-align: center;
+  margin-block: 5rem 7.5rem;
+}
+
+.information .title {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 6rem;
+}
+
+.information .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 62rem;
+  margin-inline: auto;
+}
+
+.information .card {
+  width: 12.5rem;
+}
+
+.information .card img {
+  margin-bottom: 1.5rem;
 }
