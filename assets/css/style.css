@@ -87,7 +87,7 @@ ul {
   justify-content: center;
 }
 
-.button {
+.hero .button {
   display: inline-block;
   background: hsl(166, 100%, 70%);
   color: hsl(216, 65%, 11%);
@@ -98,7 +98,7 @@ ul {
   letter-spacing: 0.04em;
 }
 
-.button:hover {
+.hero .button:hover {
   background: hsl(165, 75%, 61%);
 }
 
@@ -150,4 +150,46 @@ ul {
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
+}
+
+.cta {
+  width: 75rem;
+  text-align: center;
+  margin-block: 7.5rem 2.25rem;
+  padding-block: 2.25rem;
+  background: hsl(226, 70%, 88%);
+  color: hsl(216, 65%, 11%);
+}
+
+.cta .title,
+.cta .subtitle {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.cta .title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta .subtitle {
+  margin-bottom: 2.25rem;
+}
+
+.cta .button {
+  display: inline-block;
+  background: hsl(226, 70%, 88%);
+  color: hsl(216, 65%, 11%);
+  border: 2px solid hsl(216, 65%, 11%);
+  padding: 1rem 2.25rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.cta .button:hover {
+  background: hsl(216, 65%, 11%);
+  color: hsl(165, 75%, 61%);
+  border: 2px solid hsl(165, 75%, 61%);
 }
